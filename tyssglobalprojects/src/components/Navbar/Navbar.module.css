@@ -1,0 +1,22 @@
+.cointainer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+  border-bottom: 1px solid black;
+    position: absolute;
+  top: 33px;
+  background-color: white;
+}
+.cointainer .subcontainer{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.cointainer .subcontainer .left{
+    width: 45%;
+}
+.cointainer .subcontainer .right{
+    width: 55%;
+    
+}

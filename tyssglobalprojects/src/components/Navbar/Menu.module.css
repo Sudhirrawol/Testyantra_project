@@ -1,0 +1,138 @@
+.container {
+  height: 80px;
+  width: 100%;
+}
+.container .subcontainer {
+  height: inherit;
+  display: flex;
+}
+.container .subcontainer ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.container .subcontainer ul li {
+  height: 40px;
+  width: 80px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .subcontainer ul li:hover {
+  border-bottom: 4px solid rgb(234, 111, 49);
+  box-shadow: 0px 0px 4px 0px;
+}
+.container .subcontainer ul li .search:hover {
+  box-shadow: none;
+  border-bottom: none;
+}
+.container .subcontainer ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+}
+.container .subcontainer ul .servicesDisplay {
+  position: absolute;
+  top: 9.5vh;
+  left: 53%;
+  display: none;
+  height: 200px;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.container .subcontainer ul .servicesDisplay aside{
+  margin-left: 20px;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul .productDisplay {
+  position: absolute;
+  top:  9.5vh;
+   left: 60%;
+  display: none;
+  height: 8vh;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.container .subcontainer ul .productDisplay aside{
+  height: 8vh;
+    margin-left: 20px;
+  display: flex;
+  align-items: center;
+}
+.container .subcontainer ul .industriesDisplay {
+  position: absolute;
+   top:  9.5vh;
+  left: 67%;
+  display: none;
+  height: 60vh;
+  width: 20%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.container .subcontainer ul .industriesDisplay aside{
+   margin-left: 20px;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul .aboutDisplay {
+  position: absolute;
+  top:  9.5vh;
+  left: 73%;
+  display: none;
+  height: 40vh;
+  width: 17%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px ;
+}
+.container .subcontainer ul .aboutDisplay aside{
+     margin-left: 20px;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul .careerDisplay {
+  position: absolute;
+  top:  15vh;
+  left: 100%;
+  display: none;
+  height: 15vh;
+  width: 50%;
+  border: 1px solid rgb(255, 255, 255);
+  z-index: 1;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px ;
+}
+.container .subcontainer ul .careerDisplay aside{
+  margin-left: 20px;
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .subcontainer ul div aside a{
+  text-decoration: none;
+  display: block;
+  color: black;
+}
+.container .subcontainer ul div aside a:hover{
+  cursor: pointer;
+  color: rgb(255, 98, 0);
+}
